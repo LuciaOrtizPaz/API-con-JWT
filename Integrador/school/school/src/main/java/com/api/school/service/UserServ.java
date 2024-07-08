@@ -5,8 +5,8 @@ import java.util.List;
 
 public interface UserServ {
     List<UserDto> getAll();
-    UserDto getById(long id);
+    UserDto getById(String id);
     UserDto save(UserDto userDto);
-    UserDto update(UserDto userDto, long id);
-    void delete(long id);
+    UserDto update(UserDto userDto, String id);
+    void delete(String id);
 }
