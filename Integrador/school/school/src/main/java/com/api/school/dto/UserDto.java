@@ -25,6 +25,9 @@ public class UserDto {
         this.role = role;
     }
 
+    public UserDto(Object id, String jose, int age, int tell, String mail) {
+    }
+
     public String getId() {
         return id;
     }
@@ -78,5 +81,10 @@ public class UserDto {
 
     public void setRole(Role role) {
         this.role = role;
+    }
+
+    public String getCreatedAt() {
+
+        return "";
     }
 }
